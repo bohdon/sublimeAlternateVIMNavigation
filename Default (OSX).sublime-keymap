@@ -1,0 +1,33 @@
+[	
+	// up down left right i j k l
+	{ "keys": ["ctrl+l"], "command": "move", "args": {"by": "characters", "forward": true}},
+	{ "keys": ["ctrl+j"], "command": "move", "args": {"by": "characters", "forward": false}},
+	{ "keys": ["ctrl+i"], "command": "move", "args": {"by": "lines", "forward": false}},
+	{ "keys": ["ctrl+k"], "command": "move", "args": {"by": "lines", "forward": true}},
+	{ "keys": ["super+ctrl+i"], "command": "move", "args": {"by": "lines", "forward": false}},
+	{ "keys": ["super+ctrl+k"], "command": "move", "args": {"by": "lines", "forward": true}},
+
+	// move beginnig/end of line
+	{ "keys": ["ctrl+h"], "command": "move_to", "args": {"to": "bol", "forward": true}},
+	{ "keys": ["ctrl+;"], "command": "move_to", "args": {"to": "eol", "forward": false}},
+
+	// move with words
+	{ "keys": ["super+ctrl+l"], "command": "move", "args": {"by": "words", "forward": true}},
+	{ "keys": ["super+ctrl+j"], "command": "move", "args": {"by": "words", "forward": false}},
+
+	// move and select
+	{ "keys": ["ctrl+shift+l"], "command": "move", "args": {"by": "characters", "forward": true, "extend": true}},
+	{ "keys": ["ctrl+shift+j"], "command": "move", "args": {"by": "characters", "forward": false, "extend": true}},
+	{ "keys": ["ctrl+shift+i"], "command": "move", "args": {"by": "lines", "forward": false, "extend": true}},
+	{ "keys": ["ctrl+shift+k"], "command": "move", "args": {"by": "lines", "forward": true, "extend": true}},
+	{ "keys": ["super+ctrl+shift+i"], "command": "move", "args": {"by": "lines", "forward": false, "extend": true}},
+	{ "keys": ["super+ctrl+shift+k"], "command": "move", "args": {"by": "lines", "forward": true, "extend": true}},
+
+	// move beginning/end of line and select
+	{ "keys": ["ctrl+shift+h"], "command": "move_to", "args": {"to": "bol", "forward": true, "extend": true}},
+	{ "keys": ["ctrl+shift+;"], "command": "move_to", "args": {"to": "eol", "forward": false, "extend": true}},
+
+	// move and select words
+	{ "keys": ["super+ctrl+shift+l"], "command": "move", "args": {"by": "words", "forward": true, "extend":true}},
+	{ "keys": ["super+ctrl+shift+j"], "command": "move", "args": {"by": "words", "forward": false, "extend":true}}
+]
