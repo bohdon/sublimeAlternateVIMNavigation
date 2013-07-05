@@ -1,33 +1,33 @@
 [
 	// up down left right i j k l
-	{ "keys": ["ctrl+l"], "command": "move", "args": {"by": "characters", "forward": true}},
-	{ "keys": ["ctrl+j"], "command": "move", "args": {"by": "characters", "forward": false}},
-	{ "keys": ["ctrl+i"], "command": "move", "args": {"by": "lines", "forward": false}},
-	{ "keys": ["ctrl+k"], "command": "move", "args": {"by": "lines", "forward": true}},
+	{ "keys": ["alt+l"], "command": "move", "args": {"by": "characters", "forward": true}},
+	{ "keys": ["alt+j"], "command": "move", "args": {"by": "characters", "forward": false}},
+	{ "keys": ["alt+i"], "command": "move", "args": {"by": "lines", "forward": false}},
+	{ "keys": ["alt+k"], "command": "move", "args": {"by": "lines", "forward": true}},
 	{ "keys": ["alt+ctrl+i"], "command": "move", "args": {"by": "pages", "forward": false}},
 	{ "keys": ["alt+ctrl+k"], "command": "move", "args": {"by": "pages", "forward": true}},
 
 	// move beginnig/end of line
-	{ "keys": ["ctrl+h"], "command": "move_to", "args": {"to": "bol", "forward": true}},
-	{ "keys": ["ctrl+;"], "command": "move_to", "args": {"to": "eol", "forward": false}},
+	{ "keys": ["alt+h"], "command": "move_to", "args": {"to": "bol", "forward": true}},
+	{ "keys": ["alt+;"], "command": "move_to", "args": {"to": "eol", "forward": false}},
 
 	// move with words
 	{ "keys": ["alt+ctrl+l"], "command": "move", "args": {"by": "words", "forward": true}},
 	{ "keys": ["alt+ctrl+j"], "command": "move", "args": {"by": "words", "forward": false}},
 
 	// move and select
-	{ "keys": ["ctrl+shift+l"], "command": "move", "args": {"by": "characters", "forward": true, "extend": true}},
-	{ "keys": ["ctrl+shift+j"], "command": "move", "args": {"by": "characters", "forward": false, "extend": true}},
-	{ "keys": ["ctrl+shift+i"], "command": "move", "args": {"by": "lines", "forward": false, "extend": true}},
-	{ "keys": ["ctrl+shift+k"], "command": "move", "args": {"by": "lines", "forward": true, "extend": true}},
+	{ "keys": ["alt+shift+l"], "command": "move", "args": {"by": "characters", "forward": true, "extend": true}},
+	{ "keys": ["alt+shift+j"], "command": "move", "args": {"by": "characters", "forward": false, "extend": true}},
+	{ "keys": ["alt+shift+i"], "command": "move", "args": {"by": "lines", "forward": false, "extend": true}},
+	{ "keys": ["alt+shift+k"], "command": "move", "args": {"by": "lines", "forward": true, "extend": true}},
 	{ "keys": ["alt+ctrl+shift+i"], "command": "move", "args": {"by": "pages", "forward": false, "extend": true}},
 	{ "keys": ["alt+ctrl+shift+k"], "command": "move", "args": {"by": "pages", "forward": true, "extend": true}},
 
 	// move beginning/end of line and select
-	{ "keys": ["ctrl+shift+h"], "command": "move_to", "args": {"to": "bol", "forward": true, "extend": true}},
-	{ "keys": ["ctrl+shift+;"], "command": "move_to", "args": {"to": "eol", "forward": false, "extend": true}},
+	{ "keys": ["alt+shift+h"], "command": "move_to", "args": {"to": "bol", "forward": true, "extend": true}},
+	{ "keys": ["alt+shift+;"], "command": "move_to", "args": {"to": "eol", "forward": false, "extend": true}},
 
 	// move and select words
 	{ "keys": ["alt+ctrl+shift+l"], "command": "move", "args": {"by": "words", "forward": true, "extend":true}},
-	{ "keys": ["alt+ctrl+shift+j"], "command": "move", "args": {"by": "words", "forward": false, "extend":true}},
+	{ "keys": ["alt+ctrl+shift+j"], "command": "move", "args": {"by": "words", "forward": false, "extend":true}}
 ]
